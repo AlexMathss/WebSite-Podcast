@@ -1,0 +1,190 @@
+.footer {
+    width: 100%;
+    height: 827px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-header {
+    width: 1280px;
+    height: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #503AE7;
+}
+
+.footer-center {
+    width: 1135px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-center span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.footer-logo {
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-container{
+    width: 100%;
+    height: 638px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14142B;
+}
+
+.footer-menu {
+    width: 1280px;
+    height: 297px;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logos {
+    height: 70px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logos img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-logos span {
+    color: #fff;
+    font-size: 23px
+}
+
+.footer-pages {
+    width: 70px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-pages span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.pages-links {
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pages-links p {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.footer-reach {
+    width: 92px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-reach span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.reach-links {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reach-links p {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.footer-podcast {
+    width: 196px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-podcast span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.podcast-links {
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apple {
+    width: 182.75px;
+    height: 32px;
+}
+
+.google {
+    width: 195.73px;
+    height: 32px;
+}
+
+.sound {
+    width: 174px;
+    height: 32px;
+}
+
+.spotify {
+    width: 127.82px;
+    height: 32px;
+}
+
+.copyright {
+    background-color: #503AE7;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright span {
+    font-size: 16px;
+    color: #FFF;
+}
