@@ -1,0 +1,51 @@
+.published {
+    width: 416px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.img-ilustration {
+    width: 100%;
+    height: 256px;
+}
+
+.episode-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 10px 10px
+}
+
+.card-content {
+    width: 100%;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #14142B;
+    line-height: 23px;
+}
+
+.card-content button {
+    width: 126px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #503AE7;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+}

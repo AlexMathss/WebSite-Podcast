@@ -1,0 +1,46 @@
+.rating {
+    width: 416px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rating-profile {
+    width: 212px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-separator {
+    width: 100%;
+    height: 125px;
+}
+
+.rating-separator p {
+    color: #14142B;
+    line-height: 25px;
+}
+
+.rating-data {
+    width: 116px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rating-footer {
+    width: 100%;
+    height: 12px;
+    background-color: #503AE7;
+}
+
+.container-stars {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}

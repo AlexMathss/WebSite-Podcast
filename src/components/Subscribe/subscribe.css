@@ -1,0 +1,63 @@
+.subscribe {
+    background-color: #503AE7;
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url('../../../public/wave.png');
+}
+
+.icone-left {
+    width: 114px;
+    height: 239px;
+}
+
+.subscribe-container {
+    width: 566px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-right {
+    width: 99px;
+    height: 124px;
+}
+
+.subscribe-content {
+    width: 100%;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-content span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subscribe-input {
+    width: 511px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.subscribe-input input {
+    width: 367px;
+    border: none;
+    padding-left: 10px;
+}
+
+.subscribe-input button {
+    width: 144px;
+    background-color: #1AD993;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

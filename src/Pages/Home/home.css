@@ -1,0 +1,131 @@
+.home-container {
+    width: 100%;
+}
+
+.home {
+    height: 748px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    width: 1024px;
+    height: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation {
+    width: 486px;
+    height: 302px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.presentation h1 {
+    font-size: 48px;
+}
+
+.presentation p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #14142B;
+}
+
+.animation {
+    width: 432px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-content {
+    background-color: blue;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-content input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #F4F2FF;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.input-content button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color: #503AE7;
+    font-size: 18;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* Animação */
+
+.an1 {
+    width: 32px;
+    height: 99px;
+    background-color: #503AE7;
+    animation: go 1s infinite alternate;
+}
+.an2 {
+    width: 32px;
+    height: 256px;
+    background-color: #1AD993;
+    animation: go-back 1s infinite alternate;
+}
+.an3 {
+    width: 32px;
+    height: 178px;
+    background-color: #503AE7;
+    animation: go 1s infinite alternate;
+}
+.an4 {
+    width: 32px;
+    height: 99px;
+    background-color: #1AD993;
+    animation: go-back 1s infinite alternate;
+}
+.an5 {
+    width: 32px;
+    height: 256px;
+    background-color: #503AE7;
+    animation: go 1s infinite alternate;
+}
+.an6 {
+    width: 32px;
+    height: 178px;
+    background-color: #1AD993;
+    animation: go-back 1s infinite alternate;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateY(20px)
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes go {
+    from {
+        transform: translateY(15px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
