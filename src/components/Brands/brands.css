@@ -79,17 +79,30 @@
     height: 100%;
     background-color: #832BC1;
     margin-left: 78px;
+    animation: SlideX 2s infinite alternate;
 }
+
+@keyframes SlideX{
+    from {
+        transform: translateX(50px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
 .line-header-second {
     width: 58px;
     height: 100%;
     background-color: #832BC1;
+    animation: SlideX 2s infinite alternate;
 }
 
 .line-footer-first {
     width: 58px;
     height: 100%;
     background-color: #1AD993;
+    animation: SlideX 2s infinite alternate;
 }
 
 .separator-content {

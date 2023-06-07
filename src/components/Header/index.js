@@ -18,7 +18,7 @@ export default function Header(){
                 </div>
                 <div className='menu-container'>
                     
-                    <p>Podcasts</p>
+                    <Link to='/podcasts'>Podcasts</Link>
                     <p>Host</p>
                     <p>About</p>
                     <p>Blog</p>

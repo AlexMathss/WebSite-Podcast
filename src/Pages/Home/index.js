@@ -2,12 +2,14 @@ import Article from '../../components/Article';
 import Brands from '../../components/Brands';
 import Episodes from '../../components/Episodes';
 import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 import Testimonials from '../../components/Testimonials';
 import './home.css';
 
 export default function Home(){
     return(
         <div className='home-container'>
+            <Header/>
             <div className='home'>
                 <div className='home-content'>
                     <div className='presentation'>

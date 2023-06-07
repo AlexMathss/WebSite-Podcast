@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    animation: slideY 2s forwards;
 }
 
 .presentation {
@@ -24,6 +25,16 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
+}
+
+@keyframes slideY {
+    from {
+        transform: translateY(90px);
+    }
+    to {
+        transform: translateY(0px);
+    }
 }
 
 .presentation h1 {
@@ -71,6 +82,12 @@
     font-weight: bold;
     color: #FFF;
     cursor: pointer;
+    transition: 1s;
+}
+
+.input-content button:hover {
+    background-color: #1AD993;
+    color: #503AE7;
 }
 
 /* Animação */
